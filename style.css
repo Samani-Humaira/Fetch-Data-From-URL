@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* body */
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://media.istockphoto.com/id/462568451/photo/internet-crime-and-electronic-banking-security.jpg?s=612x612&w=0&k=20&c=5-D-X1ubxSm0liyIwuF0zXZ2PtJ-RLeeQmG477BLH0I=");
+    background-size: cover;
+}
+
+/* styling h1 tag */
+h1{
+    color:white;
+    text-align:center;
+    margin-top:3rem;
+}
+ 
+/* #input div */
+#input{
+    margin:2rem 2rem 1rem 2rem;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    color:black;
+}
+/* input field */
+input{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    box-shadow: 2px 2px 10px white;
+    width:60%;
+    padding:10px;
+    margin-right: 1rem; 
+    border-radius:10px;
+
+}
+input:hover{
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  border:2px solid white;
+       
+}
+/* button */
+button{
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px red;
+    background-color: #279EFF;
+    color:white;
+}
+button:hover{
+    transform: scaleX(1.1);
+    background-color: aqua;
+    color:black;
+}
+
+/* #result container */
+#result{
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    margin:0 2rem 0 2rem;
+
+}
+
+/* List element that are added by using js */
+.align{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Adjusting font size */
+@media(max-width:500px){
+    #result{
+        font-size:15px;
+    }
+}
