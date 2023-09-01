@@ -33,7 +33,7 @@ async function getData(inp){
     <span style="color:red;font-weight:900;">Publisher</span> : ${resul.publisher}
     <span style="color:red;font-weight:900;">UsersImage</span> : ${resul.image.url} 
       <span style="color:red;font-weight:900;">Domain's_Image</span> : ${resul.logo.url}
-      <span style="color:red;font-weight:900;">Current_Date</span> : ${resul.date}      `;
+      <span style="color:red;font-weight:900;">Current_Date</span> : ${resul.date}`;
    list.appendChild(li);
     }
     catch(err){
